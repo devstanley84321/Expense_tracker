@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Expense Tracker App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expense Tracker</h1>
+      <form action="" id="expense__form">
+        <input type="text" name="name" id="expense__name" placeholder="Expense">
+        <input type="number" name="amount" id="expense__amount" placeholder="$ amount">
+        <button type="submit" class="btn" id="expense__btn">
+          <i class='bx bx-plus'></i>
+        </button>
+      </form>
+
+      <h2>Expenses</h2>
+      <ul class="expense__list"></ul>
+      <div class="expense__total">Total: <span class="total">$0.00</span></div>
+    </div>
+
+
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
